@@ -1,0 +1,134 @@
+.mdl-layout__header {
+  background-color: #404040;
+}
+
+.mdl-layout-icon {
+  vertical-align: middle;
+}
+.title_section {
+  position: relative;
+  height: 800px;
+  width: auto;
+  /*background: url(images/heading2.jpg) center no-repeat;*/
+  background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url('images/heading2.jpg');
+  background-position: center top;
+  background-size: cover;
+  background-color: #f3f3f3;
+}
+
+.maps_icon {
+  vertical-align: middle;
+}
+
+.roboto-font {
+  font-family: 'Roboto', sans-serif;
+}
+
+.mdl-cell--4-col {
+    padding-left: 7%;
+}
+
+.list_section {
+    max-width:90%;
+    position: relative;
+    background-color: #f3f3f3;
+}
+
+main .mdl-layout__content {
+  padding: 0px;
+  margin: 0px;
+  line-height: 0px
+}
+
+.vertical-center {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.village_table {
+    width:90%;
+}
+
+.white {
+    color:white;
+}
+.table-grid {
+  max-width: 90%;
+}
+
+.table_cell {
+  padding-left: 8%;
+  max-width:90%;
+  margin: auto;
+}
+.table_section {
+    background-color:#333333;
+    position: relative;
+    height: 500px;
+    padding-top: 30px;
+}
+
+#maps_link, .nav_text {
+  color:white;
+  text-decoration: none;
+  vertical-align: middle;
+}
+
+.cards_section {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  height: auto;
+  max-width: 85%;
+  margin: auto;
+}
+
+
+.mdl-card__media {
+  overflow: hidden;
+  background: transparent;
+}
+
+.mdl-card__media img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.mdl-card__title {
+  background: transparent;
+  height: auto;
+}
+
+.mdl-card__title-text {
+  /*position: absolute;*/
+  /*top: auto;*/
+  height: auto;
+  color: black;
+  /*margin-top: 20px*/
+  margin-bottom: 40px;
+  /*bottom: 15%;*/
+}
+
+.mdl-card__actions {
+  position: absolute;
+  bottom: 0;
+}
+
+.mdl-card__actions a {
+  border-top: none;
+  font-size: 16px;
+  align-self:flex-end;
+}
+
+#a:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  padding-top: 300px;
+  padding-bottom: 300px;
+  font-size: 60px;
+  color: #ffffff;
+  line-height: 1;
+  font-weight: 500;
+}
